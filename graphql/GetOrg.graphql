@@ -1,0 +1,6 @@
+query GetOrg ($login: String!) {
+  organization(login: $login){
+    name,
+    login,
+  }
+}
