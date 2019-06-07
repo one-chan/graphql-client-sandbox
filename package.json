@@ -6,6 +6,7 @@
   "author": "Daichi Kimura <dkimura@bdd.xyz>",
   "license": "MIT",
   "dependencies": {
+    "apollo-client": "2.6.2",
     "graphql": "^14.3.1",
     "react": "^16.8.6",
     "react-apollo": "^2.5.6",
