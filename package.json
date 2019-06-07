@@ -1,0 +1,28 @@
+{
+  "name": "graphql-client-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/one-chan/graphql-client-sandbox.git",
+  "author": "Daichi Kimura <dkimura@bdd.xyz>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.3.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.2.0",
+    "@graphql-codegen/fragment-matcher": "1.2.0",
+    "@graphql-codegen/introspection": "^1.2.0",
+    "@graphql-codegen/typescript": "1.2.0",
+    "@graphql-codegen/typescript-operations": "1.2.0",
+    "@graphql-codegen/typescript-react-apollo": "^1.2.0",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "typescript": "^3.5.1"
+  },
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.yml"
+  }
+}
