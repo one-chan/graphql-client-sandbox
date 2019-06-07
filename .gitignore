@@ -83,3 +83,4 @@ typings/
 
 # graphql-code-gen files
 src/generated
+graphql.schema.json
