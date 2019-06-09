@@ -29,7 +29,7 @@
     "yaml": "1.6.0"
   },
   "scripts": {
-    "env": "ts-node ./env",
+    "precodegen": "ts-node ./env",
     "codegen": "graphql-codegen --config codegen.yml"
   }
 }
