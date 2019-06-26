@@ -2,9 +2,9 @@ overwrite: true
 schema:
   - https://api.github.com/graphql:
       headers:
-        Authorization: 'bearer xxxxxxxxxxxxxxxxxxx'
+        Authorization: "bearer ${GITHUB_GRAPHQL_API_TOKEN}"
         User-Agent: graphql-client-sandbox
-documents: "**/*.graphql"
+documents: "{,!(node_modules)/**/}*.graphql"
 generates:
   src/generated/graphql.tsx:
     plugins:

@@ -82,6 +82,5 @@ typings/
 .dynamodb/
 
 # graphql-code-gen files
-codegen.yml
 src/generated
 graphql.schema.json

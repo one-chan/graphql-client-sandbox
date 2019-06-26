@@ -31,6 +31,6 @@
     "yaml": "1.6.0"
   },
   "scripts": {
-    "codegen": "graphql-codegen --require dotenv"
+    "codegen": "graphql-codegen --require dotenv/config"
   }
 }
