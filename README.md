@@ -8,7 +8,8 @@ The sandbox of GraphQL client for React using Github API and appllo.
 
 1. clone this.
 1. install modules with `yarn`
-1. set Github API token to environment variable as `GITHUB_GRAPHQL_API_TOKEN`.
+1. make .env file with `cp .env.template .env`
+1. set Github API token to .env variable as `GITHUB_GRAPHQL_API_TOKEN`.
 
 ### Generate code
 
