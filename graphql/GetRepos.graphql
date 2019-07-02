@@ -1,0 +1,20 @@
+query GetRepos($owner: String!) {
+  user(login: $owner) {
+    repositories(last: 100, orderBy: {field: UPDATED_AT, direction: DESC}) {
+      totalCount
+      pageInfo {
+        hasNextPage,
+        hasPreviousPage
+      }
+      edges {
+        cursor,
+        node {
+          name,
+          url,
+          createdAt
+        }
+      }
+    }
+  }
+}
+
